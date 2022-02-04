@@ -7,22 +7,22 @@ Daily diary in python django framework
 # Activate environment
       source env/Scripts/active
 
-# install django
+# Install django
       pip install django
 
-# create django project
+# Create django project
     django-admin startproject [project_name]
 
-#create app
+# Create App
     python manage.py startapp [app_name]
 
-#create database
+# Create database
   python manage.py makemigrations
 
   python manage.py migrate
 
-#create admin user
+# Create admin user
     python manage.py createsuperuser
 
-#runserver
+# Run server
       python manage.py runserver
